@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+#navelist{
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 2.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+.navcontainer{
+    width: 100vw;
+    background-image: linear-gradient(to right, red , yellow);
+    
+    align-items: center;
+    
+
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+     
+     
+}
+#navlogo{
+    font-size: 2.6 rem;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+#navItem   {
+     display: flex;
+     gap: 45px;
+     
+
+
+}
+a:hover{
+     
+    color: rgb(55, 93, 197);
+    /* transition-delay: 2s; */
+
+}
+.footerbox{
+    color: rgb(212, 215, 221);
+    background-image: linear-gradient(to right, red , yellow);
+    text-align: center;
+    position: relative;
+    height: 25px;
+     
+}
+.footerbox p{
+    color: black;
+
+}
+.containbox{
+    width: 70%;
+    background-color: aqua;
+    
+    margin: auto;
+    border: 2px solid black;
+    
+    
+     
+}
+.item{
+    display: flex;
+    background-color: rgb(76, 192, 196);
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+
+}
+.rightbox{
+    /* image  */
+     
+     background-color: beige;
+     border: 2px solid rgb(55, 92, 194);
+     position: relative;
+     /* overflow: hidden; */
+
+     
+}
+.rightbox img{
+    height: 380px;
+    margin: 11px;
+    text-shadow: 2px 2px 5px red;
+    border-radius: 33px;
+    transition: all 0.6s;
+    
+}
+.rightbox p h3{
+     
+    text-shadow: 6px 7px 5px red;
+
+    
+}
+
+.leftbox{
+     
+      
+     border: 5px solid rgb(221, 234, 235);
+     padding: 2px;
+     background-color: rgb(78, 169, 175);
+     display: flex;
+     flex-direction: column;
+     gap: 90px;
+     
+}
+.container{
+    
+}
+.productuse{
+   color: rgb(129, 39, 92);
+    font-size: 1.5rem;
+}
+.rightbox img:hover{
+     border:2px solid rgb(184, 141, 63);
+     bottom: unset;
+     box-shadow: 5px 5px rgb(110, 26, 22), 10px 10px rgb(179, 131, 207), 15px 15px rgb(104, 112, 223);
+     transform: scale(1);
+
+}
